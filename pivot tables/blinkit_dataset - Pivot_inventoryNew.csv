@@ -1,0 +1,6 @@
+SUM of stock_received,SUM of correct_stock,SUM of damaged_stock
+14275,13280,995
+,,
+,,
+correct_stock_perc,93.03%,
+damaged_stock_perc,6.97%,

@@ -1,0 +1,35 @@
+delivery_status,COUNT of order_id,,,
+On Time,3460,,On Time,69.20%
+Significantly Delayed,506,,Significantly Delayed,10.12%
+Slightly Delayed,1034,,Slightly Delayed,20.68%
+Grand Total,5000,,,
+,,,,
+,,,,
+,,,,
+,,,,
+COUNT of order_id,delivery_status,,,
+Final_reason,On Time,Significantly Delayed,Slightly Delayed,Grand Total
+No Reason,1897,5,,1902
+Traffic,1563,501,1034,3098
+Grand Total,3460,506,1034,5000
+,,,,
+,,,,
+,,,,
+,,,,
+distance_bucket,COUNT of order_id,,,
+0-2 Km,1741,,,
+2-4 Km,2193,,,
+4-6 Km,1066,,,
+Grand Total,5000,,,
+,,,,
+,,,,
+MEDIAN of delivery_time_minutes,,,,
+2,,,,
+,,,,
+,,,,
+COUNT of order_id,distance_bucket,,,
+delivery_status,0-2 Km,2-4 Km,4-6 Km,Grand Total
+On Time,1198,1529,733,3460
+Significantly Delayed,185,216,105,506
+Slightly Delayed,358,448,228,1034
+Grand Total,1741,2193,1066,5000
